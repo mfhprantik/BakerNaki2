@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">বেকারNaki?</string>
+
+    <string name="title_login">Login</string>
+    <string name="title_signup">Register</string>
+    <string name="title_register_personal">Personal Info</string>
+    <string name="title_register_company">Company Info</string>
+    <string name="title_register_circular">Add New Circular</string>
+    <string name="title_register_category">Category</string>
+    <string name="title_register_education">Education</string>
+    <string name="title_register_qualification">Qualification</string>
+    <string name="title_register_work">Work History</string>
+    <string name="title_register_skills">Skills and Achievements</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_circular">Circular Info</string>
+    <string name="title_candidates">Candidates</string>
+    <string name="title_candidate_profile">Candidate Profile</string>
+    <string name="title_edit_profile">Edit Profile</string>
+
+    <string name="spinner_register_categories">Choose a category</string>
+    <string name="spinner_register_roles">Choose a role</string>
+    <string name="spinner_register_employer_education">Minimum level of education</string>
+    <string name="spinner_register_employee_education">Highest level of education</string>
+    <string name="spinner_register_degree">Name of the degree</string>
+    <string name="button_login">Login</string>
+    <string name="button_register">Register</string>
+    <string name="button_next">Next</string>
+
+    <string name="editText_email">Email</string>
+    <string name="editText_password">Password</string>
+    <string name="editText_confirmpassword">Confirm password</string>
+
+    <string name="button_register_employee">Employee</string>
+    <string name="button_register_employer">Employer</string>
+
+    <string name="editText_register_employer_name">Company name</string>
+    <string name="editText_register_employer_details">Company details</string>
+    <string name="editText_register_employee_name">Full name</string>
+    <string name="radio_register_employee_sex_male">Male</string>
+    <string name="radio_register_employee_sex_female">Female</string>
+    <string name="editText_register_address">Address</string>
+    <string name="editText_register_phone">Phone</string>
+
+    <string name="editText_register_employee_institution">Institution</string>
+    <string name="editText_register_employee_year">Year</string>
+
+    <string name="editText_register_employer_experience">Minimum years of experience</string>
+    <string name="editText_register_employee_experience">Years of experience</string>
+    <string name="editText_register_employee_companies">Companies worked for</string>
+    <string name="editText_register_employee_work">Work details</string>
+
+    <string name="editText_register_employee_skills_interpersonal">Interpersonal skills</string>
+    <string name="editText_register_employee_skills_computer">Computer skills</string>
+    <string name="editText_register_employee_skills_language">Language skills</string>
+    <string name="editText_register_employee_achievements">Achievements</string>
+
+    <string name="editText_register_employer_location">Job location</string>
+    <string name="editText_register_employer_salary">Salary range</string>
+    <string name="editText_register_employer_description">Job description</string>
+
+    <string name="logout">Logout</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="profile">Profile</string>
+    <string name="circular">Circular Info</string>
+    <string name="candidates">Candidates</string>
+
+    <string name="profile_personal">Personal Info</string>
+    <string name="profile_employee_name">Name :</string>
+    <string name="profile_employer_name">Company Name :</string>
+    <string name="profile_sex">Sex :</string>
+    <string name="profile_birthday">Birthday :</string>
+    <string name="profile_contact">Contact</string>
+    <string name="profile_email">Email :</string>
+    <string name="profile_address">Address :</string>
+    <string name="profile_phone">Phone :</string>
+    <string name="profile_company">Company Info</string>
+    <string name="profile_details">Company Details :</string>
+    <string name="profile_preference">Job Preference</string>
+    <string name="profile_categories">Categories :</string>
+    <string name="profile_education">Education</string>
+    <string name="profile_degree">Degree :</string>
+    <string name="profile_year">Year :</string>
+    <string name="profile_institution">Institution :</string>
+    <string name="profile_work">Work History</string>
+    <string name="profile_experience">Years of Experience :</string>
+    <string name="profile_companies">Companies worked for :</string>
+    <string name="profile_workdetails">Work Details :</string>
+    <string name="profile_skills">Skills and Achievements</string>
+    <string name="profile_interpersonal">Interpersonal Skills :</string>
+    <string name="profile_computer">Computer Skills :</string>
+    <string name="profile_language">Language Skills :</string>
+    <string name="profile_achievements">Achievements :</string>
+    <string name="profile_edit">Edit Profile</string>
+    <string name="profile_security">Security</string>
+    <string name="profile_password">Password :</string>
+    <string name="profile_confirmpassword">Confirm Password :</string>
+    <string name="profile_save">Save Changes</string>
+
+    <string name="circular_company">Company Info</string>
+    <string name="circular_name">Company name :</string>
+    <string name="circular_address">Address :</string>
+    <string name="circular_phone">Phone :</string>
+    <string name="circular_details">Company Details :</string>
+    <string name="circular_job">Job Info</string>
+    <string name="circular_nature">Job Nature :</string>
+    <string name="circular_category">Job Category :</string>
+    <string name="circular_location">Job Location :</string>
+    <string name="circular_description">Job Description :</string>
+    <string name="circular_salary">Salary Range : </string>
+    <string name="circular_deadline">Circular Deadline :</string>
+    <string name="circular_requirements">Requirements</string>
+    <string name="circular_degree">Minimum Degree :</string>
+    <string name="circular_experience">Minimum Years of Experience :</string>
+    <string name="circular_candidates">View Candidates</string>
+    <string name="circular_add">Add Circular</string>
+    <string name="circular_interest">Show Interest</string>
+    <string name="circular_interested">Interested</string>
+
+    <string name="empty_categories">Please choose atleast one role</string>
+    <string name="empty_levels">Please choose atleast one degree</string>
+    <string name="wrong_credentials">Email or/and Password incorrect</string>
+    <string name="unknown_error">Something went wrong. Please try again later</string>
+    <string name="connection_error">Could not connect to server</string>
+    <string name="empty_credentials">Email / Password fields cannot be empty</string>
+    <string name="password_match_error">Passwords entered do not match</string>
+    <string name="user_exist">User with identical email already exists</string>
+    <string name="empty_fields">Required fields cannot be empty</string>
+
+    <string-array name="spinner_register_employer_nature">
+        <item>Job Nature</item>
+        <item>Part-time</item>
+        <item>Full-time</item>
+    </string-array>
+
+    <string-array name="spinner_register_type">
+        <item>Account Type</item>
+        <item>Employee</item>
+        <item>Employer</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_logout">Logout</string>
+    <string name="action_delete">Delete Circular</string>
+    <string name="action_edit">Edit Profile</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_circular">Circular</string>
+</resources>

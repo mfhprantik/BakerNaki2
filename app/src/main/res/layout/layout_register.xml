@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView_register_step0_error"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+        <Spinner
+            android:id="@+id/spinner_register_type"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:entries="@array/spinner_register_type" />
+
+        <EditText
+            android:id="@+id/editText_register_email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/editText_email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editText_register_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/editText_password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/editText_register_confirmpw"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/editText_confirmpassword"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/button_register_step0_next"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="start"
+            android:text="@string/button_next"
+            android:textAlignment="center"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

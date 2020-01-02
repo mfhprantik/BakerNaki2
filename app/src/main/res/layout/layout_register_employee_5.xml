@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView_register_employee_step5_error"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/connection_error"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/editText_register_employee_skills_interpersonal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/editText_register_employee_skills_interpersonal"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/editText_register_employee_skills_computer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/editText_register_employee_skills_computer"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/editText_register_employee_skills_language"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/editText_register_employee_skills_language"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/editText_register_employee_achievements"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/editText_register_employee_achievements"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/button_register_employee_step5_finish"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="Employee5"
+            android:text="@string/button_register"
+            android:textAlignment="center"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/editText_register_employee_experience"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/editText_register_employee_experience"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editText_register_employee_companies"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/editText_register_employee_companies"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/editText_register_employee_work"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/editText_register_employee_work"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/button_register_employee_step4_next"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="Employee4"
+            android:text="@string/button_next"
+            android:textAlignment="center"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

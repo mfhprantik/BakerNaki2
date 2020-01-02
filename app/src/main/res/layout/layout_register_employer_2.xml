@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView_register_employer_step2_error"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/empty_fields"
+            android:visibility="gone" />
+
+        <Spinner
+            android:id="@+id/spinner_register_employer_nature"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:entries="@array/spinner_register_employer_nature" />
+
+        <EditText
+            android:id="@+id/editText_register_employer_location"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/editText_register_employer_location"
+            android:inputType="textPostalAddress" />
+
+        <EditText
+            android:id="@+id/editText_register_employer_salary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/editText_register_employer_salary"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editText_register_employer_description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/editText_register_employer_description"
+            android:inputType="textMultiLine" />
+
+        <DatePicker
+            android:id="@+id/datePicker_register_employer_deadline"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false" />
+
+        <Button
+            android:id="@+id/button_register_employer_step2_next"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="Employer2"
+            android:text="@string/button_next"
+            android:textAlignment="center"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

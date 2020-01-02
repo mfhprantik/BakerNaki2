@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorSecondaryLight"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorPrimaryLight"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="30dp"
+                        android:text="@string/profile_company"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView_profile_employer_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/profile_employer_name" />
+
+                    <TextView
+                        android:id="@+id/textView_profile_employer_details"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/profile_details" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorPrimaryLight"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="30dp"
+                        android:text="@string/profile_contact"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView_profile_employer_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/profile_email" />
+
+                    <TextView
+                        android:id="@+id/textView_profile_employer_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/profile_address" />
+
+                    <TextView
+                        android:id="@+id/textView_profile_employer_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/profile_phone" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>
